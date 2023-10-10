@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 9.4.1
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/dsladmin/spillBound/postgresql-9.4.1/include
+Libs: -L/home/dsladmin/spillBound/postgresql-9.4.1/lib -lecpg
+Libs.private:  -lm -lpthread
